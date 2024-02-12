@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1> Displaying the Student_list</h1>
+        {% for st in students %}
+            <h2>The student name is {{st.Stname}} who is {{st.Stage}} years old studying in "{{st.Sname}}" school</h2>
+        {% endfor %}
+    </center>
+</body>
+</html>
